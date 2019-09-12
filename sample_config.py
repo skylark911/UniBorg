@@ -85,7 +85,8 @@ class Config(object):
     G_DRIVE_AUTH_TOKEN_DATA = os.environ.get("G_DRIVE_AUTH_TOKEN_DATA", None)
     #
     TELE_GRAM_2FA_CODE = os.environ.get("TELE_GRAM_2FA_CODE", None)
-    #
+    GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
+    GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     GROUP_REG_SED_EX_BOT_S = os.environ.get("GROUP_REG_SED_EX_BOT_S", r"(regex|moku|BananaButler_|rgx|l4mR)bot")
     # rapidleech plugins
     OPEN_LOAD_LOGIN = os.environ.get("OPEN_LOAD_LOGIN", "0")

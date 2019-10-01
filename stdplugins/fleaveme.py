@@ -45,8 +45,8 @@ async def _(event):
             "**Chat Message Exported To** `./User's profile/`",
             "**Chat Message Exported To** `./user/chatbackup/`",
             "**Chat Message Exported To** `./user/chatbackup/groupchat.txt`",
-            "__Legend will be right back.....!",
-            "__Legend will be right back.....!"
+            "✨Legend will be right back.....!",
+            "✨Legend will be right back.....!"
 
  ]
 

@@ -2,7 +2,7 @@
 
 Available Commands:
 
-.fleave"""
+.brb"""
 
 from telethon import events
 
@@ -26,7 +26,7 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "fleave":
+    if input_str == "brb":
 
         await event.edit(input_str)
 

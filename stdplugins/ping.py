@@ -3,7 +3,7 @@ from datetime import datetime
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd(pattern="ping ?(.*)", allow_sudo=True))
+@borg.on(admin_cmd(pattern="ping"))
 async def _(event):
     if event.fwd_from:
         return
@@ -11,4 +11,4 @@ async def _(event):
     await event.edit("Pong!")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit("Pong!\n{}".format(ms))
+    await event.edit("🏓Pong!\n{}".format(ms))

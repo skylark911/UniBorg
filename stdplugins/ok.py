@@ -2,7 +2,7 @@
 
 Available Commands:
 
-.ok"""
+tq"""
 
 from telethon import events
 
@@ -10,7 +10,7 @@ import asyncio
 
 from uniborg.util import admin_cmd
 
-@borg.on(admin_cmd("(.*)"))
+@borg.on(admin_cmd(pattern="tq ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -20,24 +20,23 @@ async def _(event):
     if input_str == "ok":
         await event.edit(input_str)
         animation_chars = [
-            "F",
-            "U",
-            "C",
+            "T",
+            "H",
+            "A",
+            "N",
             "K",
             "Y",
             "O",
             "U",
-            "B",
-            "C",
-            "FK",
-            "UU",
-            "FCUK",
-            "UOY",
-            "C",
-            "F",
+            "V",
+            "E",
+            "R",
             "Y",
-            "F",
-            "Ok Sar 😇"
+            "M",
+            "U",
+            "C",
+            "H",
+            "😇🌷"
         ]
 
         for i in animation_ttl:

@@ -25,18 +25,22 @@ async def _(event):
             "A",
             "N",
             "K",
+            "THANK",
             "Y",
             "O",
             "U",
+            "YOU",
             "V",
             "E",
             "R",
             "Y",
+            "VERY",
             "M",
             "U",
             "C",
             "H",
-            "😇🌷"
+            "MUCH"
+            "THANK YOU VERY MUCH 😇🌷"
         ]
 
         for i in animation_ttl:

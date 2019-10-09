@@ -12,7 +12,7 @@ import asyncio
 
 
 
-@borg.on(events.admin_cmd(pattern="jio ?(.*)", allow_sudo=True, outgoing=True))
+@borg.on(admin_cmd(pattern="jio ?(.*)", allow_sudo=True, outgoing= True))  # pylint:disable=E0602
 
 async def _(event):
 
